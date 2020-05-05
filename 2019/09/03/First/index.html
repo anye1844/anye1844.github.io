@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="从可正常使用的Linux上挂载其他的Linux的通用方法, Anye">
+    <meta name="keywords" content="写在最前, Anye">
     <meta name="description" content="高考加油">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>从可正常使用的Linux上挂载其他的Linux的通用方法 | Anye’Blog</title>
+    <title>写在最前 | Anye’Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -223,7 +223,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '1ad832e1891325aa02f64877f6d3873277b6c1dc0c7314befb536179f08e7d9d';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -236,12 +236,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">从可正常使用的Linux上挂载其他的Linux的通用方法</h1>
+                    <h1 class="description center-align post-title">写在最前</h1>
                 </div>
             </div>
         </div>
@@ -366,8 +366,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Linux/">
-                                <span class="chip bg-color">Linux</span>
+                            <a href="/tags/Life/">
+                                <span class="chip bg-color">Life</span>
+                            </a>
+                        
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
                             </a>
                         
                     </div>
@@ -378,8 +382,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
-                                前端
+                            <a href="/categories/Life/" class="post-category">
+                                Life
                             </a>
                         
                     </div>
@@ -391,7 +395,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-12
+                    2019-09-03
                 </div>
                 
 
@@ -405,7 +409,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    142
+                    333
                 </div>
                 
 
@@ -427,15 +431,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><strong>如题，此挂载方法可解决很多不能进系统解决的问题，比如引导失效，显卡驱动问题，安装软件导致不能开机等等</strong></p>
-<p><strong>当然，不仅仅是可以在其他Linux上挂载，当然live CD或者live USB也是可以的</strong></p>
-<p>下面开始正题 </p>
-<hr>
-<p>首先获取root权限</p>
-<pre><code>sudo su</code></pre><p>然后来检查需要修复的Linux分区在什么地方</p>
-<pre><code>fdisk -l</code></pre><p>查看输出的磁盘分区情况，找到 Linux 安装在哪块硬盘和安装的分区。</p>
-<p><a href="https://blog.csdn.net/yanhanhui1/article/details/94604767" target="_blank" rel="noopener">https://blog.csdn.net/yanhanhui1/article/details/94604767</a></p>
-
+                <h4 id="如果26个英文字母"><a href="#如果26个英文字母" class="headerlink" title="如果26个英文字母"></a>如果26个英文字母</h4><h4 id="A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z"><a href="#A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z" class="headerlink" title="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"></a>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h4><h4 id="分别等于"><a href="#分别等于" class="headerlink" title="分别等于:"></a>分别等于:</h4><h4 id="1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26"><a href="#1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26" class="headerlink" title="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26"></a>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26</h4><h4 id="那么："><a href="#那么：" class="headerlink" title="那么："></a>那么：</h4><h4 id="Knowledge-知识-：-K-N-O-W-L-E-D-G-E＝-11-14-15-23-12-5-4-7-5-96"><a href="#Knowledge-知识-：-K-N-O-W-L-E-D-G-E＝-11-14-15-23-12-5-4-7-5-96" class="headerlink" title="Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%"></a>Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%</h4><h4 id="Workhard-努力工作）：W-O-R-K-H-A-R-D＝-23-15-18-11-8-1-18-4-98"><a href="#Workhard-努力工作）：W-O-R-K-H-A-R-D＝-23-15-18-11-8-1-18-4-98" class="headerlink" title="Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%"></a>Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%</h4><h4 id="也就是说知识和努力工作对我们人生的影响可以达到96％和98％。"><a href="#也就是说知识和努力工作对我们人生的影响可以达到96％和98％。" class="headerlink" title="也就是说知识和努力工作对我们人生的影响可以达到96％和98％。"></a>也就是说知识和努力工作对我们人生的影响可以达到96％和98％。</h4><h4 id="Luck（好运）：-L-U-C-K＝12-21-3-11-47-。"><a href="#Luck（好运）：-L-U-C-K＝12-21-3-11-47-。" class="headerlink" title="Luck（好运）： L+U+C+K＝12+21+3+11=47%。"></a>Luck（好运）： L+U+C+K＝12+21+3+11=47%。</h4><h4 id="Love（爱情）：-L-O-V-E＝12-15-22-5-54-。"><a href="#Love（爱情）：-L-O-V-E＝12-15-22-5-54-。" class="headerlink" title="Love（爱情）： L+O+V+E＝12+15+22+5=54%。"></a>Love（爱情）： L+O+V+E＝12+15+22+5=54%。</h4><h4 id="看来，这些我们通常认为重要的东西却并没起到最重要的作用。"><a href="#看来，这些我们通常认为重要的东西却并没起到最重要的作用。" class="headerlink" title="看来，这些我们通常认为重要的东西却并没起到最重要的作用。"></a>看来，这些我们通常认为重要的东西却并没起到最重要的作用。</h4><h4 id="那么，什么可以决定我们100％的人生呢？"><a href="#那么，什么可以决定我们100％的人生呢？" class="headerlink" title="那么，什么可以决定我们100％的人生呢？"></a>那么，什么可以决定我们100％的人生呢？</h4><h4 id="是Money（金钱）吗？M-O-N-E-Y-13-15-14-5-25-72-。"><a href="#是Money（金钱）吗？M-O-N-E-Y-13-15-14-5-25-72-。" class="headerlink" title="是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。"></a>是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。</h4><h4 id="看来也不是。"><a href="#看来也不是。" class="headerlink" title="看来也不是。"></a>看来也不是。</h4><h4 id="是Leadership-领导能力-吗？"><a href="#是Leadership-领导能力-吗？" class="headerlink" title="是Leadership (领导能力)吗？"></a>是Leadership (领导能力)吗？</h4><h4 id="L-E-A-D-E-R-S-H-I-P-12-5-1-4-5-18-19-9-16-89"><a href="#L-E-A-D-E-R-S-H-I-P-12-5-1-4-5-18-19-9-16-89" class="headerlink" title="L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%"></a>L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%</h4><h4 id="还不是。"><a href="#还不是。" class="headerlink" title="还不是。"></a>还不是。</h4><h4 id="金钱，权力也不能完全决定我们的生活。那是什么呢？"><a href="#金钱，权力也不能完全决定我们的生活。那是什么呢？" class="headerlink" title="金钱，权力也不能完全决定我们的生活。那是什么呢？"></a>金钱，权力也不能完全决定我们的生活。那是什么呢？</h4><h4 id="其实，真正能使我们生活圆满的东西就在我们的代码里面！"><a href="#其实，真正能使我们生活圆满的东西就在我们的代码里面！" class="headerlink" title="其实，真正能使我们生活圆满的东西就在我们的代码里面！"></a>其实，真正能使我们生活圆满的东西就在我们的代码里面！</h4><h4 id="iostream-输入输出流所在的头文件-I-O-S-T-R-E-A-M-9-15-19-20-18-5-1-13-100-。"><a href="#iostream-输入输出流所在的头文件-I-O-S-T-R-E-A-M-9-15-19-20-18-5-1-13-100-。" class="headerlink" title="iostream(输入输出流所在的头文件) I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。"></a>iostream(输入输出流所在的头文件) I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。</h4><h4 id="所以坚持写代码吧……"><a href="#所以坚持写代码吧……" class="headerlink" title="所以坚持写代码吧……"></a>所以坚持写代码吧……</h4>
             </div>
             <hr/>
 
@@ -460,7 +456,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://anye166.gitee.io/2020/04/12/General%20method/">https://anye166.gitee.io/2020/04/12/General%20method/</a>
+                    <a href="https://anye166.gitee.io/2019/09/03/First/">https://anye166.gitee.io/2019/09/03/First/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -498,8 +494,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Linux/">
-                                    <span class="chip bg-color">Linux</span>
+                                <a href="/tags/Life/">
+                                    <span class="chip bg-color">Life</span>
+                                </a>
+                            
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
                                 </a>
                             
                         </div>
@@ -934,24 +934,29 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/04/hello-world/">
+                <a href="/2020/04/12/General%20method/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="从可正常使用的Linux上挂载其他的Linux的通用方法">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">从可正常使用的Linux上挂载其他的Linux的通用方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            如题，此挂载方法可解决很多不能进系统解决的问题，比如引导失效，显卡驱动问题，安装软件导致不能开机等等
+当然，不仅仅是可以在其他Linux上挂载，当然live CD或者live USB也是可以的
+下面开始正题 
+
+首先获取root权限
+sud
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-12
                         </span>
                         <span class="publish-author">
                             
@@ -968,8 +973,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
                     </a>
                     
                 </div>
@@ -983,19 +988,20 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/03/First/">
+                <a href="/2019/09/03/road/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="写在最前">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="A-道路铺设 题解（2018NOIP提高组复赛）">
                         
-                        <span class="card-title">写在最前</span>
+                        <span class="card-title">A-道路铺设 题解（2018NOIP提高组复赛）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            如果26个英文字母A B C D E F G H I J K L M N O P Q R S T U V W X Y Z分别等于:1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 2
+                            首先来分析示例数据这是按照示例数据画出来的示意图，那么填过之后就变成了这样这样太麻烦了，仔细观察图2，有没有发现一个规律，
+其实我们可以这样子：先把第1列的道路先填起来，记到天数sum中，然后将第一列下陷的深度后面的深度相比较，若后面的有一
                         
                     </div>
                     <div class="publish-info">
@@ -1006,8 +1012,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Life/" class="post-category">
-                                    Life
+                            <a href="/categories/C/" class="post-category">
+                                    C++
                                 </a>
                             
                             
@@ -1017,12 +1023,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Life/">
-                        <span class="chip bg-color">Life</span>
+                    <a href="/tags/2018%E5%B9%B4NOIP%E6%8F%90%E9%AB%98%E7%BB%84%E5%A4%8D%E8%B5%9B/">
+                        <span class="chip bg-color">2018年NOIP提高组复赛</span>
                     </a>
                     
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
+                    <a href="/tags/%E9%A2%98%E8%A7%A3/">
+                        <span class="chip bg-color">题解</span>
                     </a>
                     
                 </div>

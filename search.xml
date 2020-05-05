@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/05/04/hello-world/"/>
+      <url>/2020/05/04/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><pre><code>---title: typora-vue-theme主题介绍date: 2018-09-07 09:25:00author: XXXimg: /source/images/xxx.jpgtop: truepassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92toc: falsemathjax: falsesummary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则进程会自动截取文章的部分内容作为摘要categories: Markdowntags:  - Typora  - Markdown---</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>从可正常使用的Linux上挂载其他的Linux的通用方法</title>
+      <link href="/2020/04/12/General%20method/"/>
+      <url>/2020/04/12/General%20method/</url>
+      
+        <content type="html"><![CDATA[<p><strong>如题，此挂载方法可解决很多不能进系统解决的问题，比如引导失效，显卡驱动问题，安装软件导致不能开机等等</strong></p><p><strong>当然，不仅仅是可以在其他Linux上挂载，当然live CD或者live USB也是可以的</strong></p><p>下面开始正题 </p><hr><p>首先获取root权限</p><pre><code>sudo su</code></pre><p>然后来检查需要修复的Linux分区在什么地方</p><pre><code>fdisk -l</code></pre><p>查看输出的磁盘分区情况，找到 Linux 安装在哪块硬盘和安装的分区。</p><p><a href="https://blog.csdn.net/yanhanhui1/article/details/94604767" target="_blank" rel="noopener">https://blog.csdn.net/yanhanhui1/article/details/94604767</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写在最前</title>
+      <link href="/2019/09/03/First/"/>
+      <url>/2019/09/03/First/</url>
+      
+        <content type="html"><![CDATA[<h4 id="如果26个英文字母"><a href="#如果26个英文字母" class="headerlink" title="如果26个英文字母"></a>如果26个英文字母</h4><h4 id="A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z"><a href="#A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z" class="headerlink" title="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"></a>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h4><h4 id="分别等于"><a href="#分别等于" class="headerlink" title="分别等于:"></a>分别等于:</h4><h4 id="1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26"><a href="#1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26" class="headerlink" title="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26"></a>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26</h4><h4 id="那么："><a href="#那么：" class="headerlink" title="那么："></a>那么：</h4><h4 id="Knowledge-知识-：-K-N-O-W-L-E-D-G-E＝-11-14-15-23-12-5-4-7-5-96"><a href="#Knowledge-知识-：-K-N-O-W-L-E-D-G-E＝-11-14-15-23-12-5-4-7-5-96" class="headerlink" title="Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%"></a>Knowledge (知识)： K+N+O+W+L+E+D+G+E＝ 11+14+15+23+12+5+4+7+5=96%</h4><h4 id="Workhard-努力工作）：W-O-R-K-H-A-R-D＝-23-15-18-11-8-1-18-4-98"><a href="#Workhard-努力工作）：W-O-R-K-H-A-R-D＝-23-15-18-11-8-1-18-4-98" class="headerlink" title="Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%"></a>Workhard (努力工作）：W+O+R+K+H+A+R+D＝ 23+15+18+11+8+1+18+4 =98%</h4><h4 id="也就是说知识和努力工作对我们人生的影响可以达到96％和98％。"><a href="#也就是说知识和努力工作对我们人生的影响可以达到96％和98％。" class="headerlink" title="也就是说知识和努力工作对我们人生的影响可以达到96％和98％。"></a>也就是说知识和努力工作对我们人生的影响可以达到96％和98％。</h4><h4 id="Luck（好运）：-L-U-C-K＝12-21-3-11-47-。"><a href="#Luck（好运）：-L-U-C-K＝12-21-3-11-47-。" class="headerlink" title="Luck（好运）： L+U+C+K＝12+21+3+11=47%。"></a>Luck（好运）： L+U+C+K＝12+21+3+11=47%。</h4><h4 id="Love（爱情）：-L-O-V-E＝12-15-22-5-54-。"><a href="#Love（爱情）：-L-O-V-E＝12-15-22-5-54-。" class="headerlink" title="Love（爱情）： L+O+V+E＝12+15+22+5=54%。"></a>Love（爱情）： L+O+V+E＝12+15+22+5=54%。</h4><h4 id="看来，这些我们通常认为重要的东西却并没起到最重要的作用。"><a href="#看来，这些我们通常认为重要的东西却并没起到最重要的作用。" class="headerlink" title="看来，这些我们通常认为重要的东西却并没起到最重要的作用。"></a>看来，这些我们通常认为重要的东西却并没起到最重要的作用。</h4><h4 id="那么，什么可以决定我们100％的人生呢？"><a href="#那么，什么可以决定我们100％的人生呢？" class="headerlink" title="那么，什么可以决定我们100％的人生呢？"></a>那么，什么可以决定我们100％的人生呢？</h4><h4 id="是Money（金钱）吗？M-O-N-E-Y-13-15-14-5-25-72-。"><a href="#是Money（金钱）吗？M-O-N-E-Y-13-15-14-5-25-72-。" class="headerlink" title="是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。"></a>是Money（金钱）吗？M+O+N+E+Y=13+15+14+5+25=72%。</h4><h4 id="看来也不是。"><a href="#看来也不是。" class="headerlink" title="看来也不是。"></a>看来也不是。</h4><h4 id="是Leadership-领导能力-吗？"><a href="#是Leadership-领导能力-吗？" class="headerlink" title="是Leadership (领导能力)吗？"></a>是Leadership (领导能力)吗？</h4><h4 id="L-E-A-D-E-R-S-H-I-P-12-5-1-4-5-18-19-9-16-89"><a href="#L-E-A-D-E-R-S-H-I-P-12-5-1-4-5-18-19-9-16-89" class="headerlink" title="L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%"></a>L+E+A+D+E+R+S+H+I+P=12+5+1+4+5+18+19+9+16=89%</h4><h4 id="还不是。"><a href="#还不是。" class="headerlink" title="还不是。"></a>还不是。</h4><h4 id="金钱，权力也不能完全决定我们的生活。那是什么呢？"><a href="#金钱，权力也不能完全决定我们的生活。那是什么呢？" class="headerlink" title="金钱，权力也不能完全决定我们的生活。那是什么呢？"></a>金钱，权力也不能完全决定我们的生活。那是什么呢？</h4><h4 id="其实，真正能使我们生活圆满的东西就在我们的代码里面！"><a href="#其实，真正能使我们生活圆满的东西就在我们的代码里面！" class="headerlink" title="其实，真正能使我们生活圆满的东西就在我们的代码里面！"></a>其实，真正能使我们生活圆满的东西就在我们的代码里面！</h4><h4 id="iostream-输入输出流所在的头文件-I-O-S-T-R-E-A-M-9-15-19-20-18-5-1-13-100-。"><a href="#iostream-输入输出流所在的头文件-I-O-S-T-R-E-A-M-9-15-19-20-18-5-1-13-100-。" class="headerlink" title="iostream(输入输出流所在的头文件) I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。"></a>iostream(输入输出流所在的头文件) I+O+S+T+R+E+A+M=9+15+19+20+18+5+1+13=100%。</h4><h4 id="所以坚持写代码吧……"><a href="#所以坚持写代码吧……" class="headerlink" title="所以坚持写代码吧……"></a>所以坚持写代码吧……</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> Life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Life </tag>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A-道路铺设 题解（2018NOIP提高组复赛）</title>
+      <link href="/2019/09/03/road/"/>
+      <url>/2019/09/03/road/</url>
+      
+        <content type="html"><![CDATA[<p>首先来分析示例数据<br><img src="https://s2.ax1x.com/2019/09/04/nAjFXR.png" alt="1"><br>这是按照示例数据画出来的示意图，<br>那么填过之后就变成了这样<img src="https://s2.ax1x.com/2019/09/04/nAv324.png" alt="2"><br><del>这样太麻烦了</del>，仔细观察图2，有没有发现一个规律，</p><p><del>其实我们可以这样子</del>：<br>先把第1列的道路先填起来，记到天数sum中，然后将第一列下陷的深度后面的深度相比较，若后面的有一个小于它，则整条道路上都被填满了最浅的那个坑的深度的土，如图。<br><img src="https://s2.ax1x.com/2019/09/04/nAxotK.png" alt="3"></p><p>然后我们通过使用for循环遍历整条道路，在前一步的基础上，增加天数sum，如图<img src="https://s2.ax1x.com/2019/09/04/nAxTfO.png" alt="5"></p><h5 id="图片颜色标记错了，第5列的5也是红色"><a href="#图片颜色标记错了，第5列的5也是红色" class="headerlink" title="图片颜色标记错了，第5列的5也是红色"></a>图片颜色标记错了，第5列的5也是红色</h5><p>继续<br><img src="https://s2.ax1x.com/2019/09/04/nAxIk6.png" alt="6"></p><h5 id="图片颜色标记错了，第5列的5也是红色-1"><a href="#图片颜色标记错了，第5列的5也是红色-1" class="headerlink" title="图片颜色标记错了，第5列的5也是红色"></a>图片颜色标记错了，第5列的5也是红色</h5><p>最后<br><img src="https://s2.ax1x.com/2019/09/04/nAx4Tx.png" alt="7"></p><p>我们的算法应该这样实现</p><p><img src="https://s2.ax1x.com/2019/09/04/nAxXnA.png" alt="123">]</p><p>至此这道题就算完成了！</p><hr><h3 id="最后贴上完整代码"><a href="#最后贴上完整代码" class="headerlink" title="最后贴上完整代码"></a>最后贴上完整代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">//freopen ("road.in","r",stdin);</span>    <span class="token comment" spellcheck="true">//freopen ("road.out","w",stdout);</span>    <span class="token keyword">int</span> n<span class="token punctuation">,</span>sum<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>l<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span><span class="token operator">++</span>i<span class="token punctuation">)</span>        <span class="token punctuation">{</span>            <span class="token keyword">int</span> a<span class="token punctuation">;</span>            <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">></span>l<span class="token punctuation">)</span>                sum<span class="token operator">+</span><span class="token operator">=</span><span class="token punctuation">(</span>a<span class="token operator">-</span>l<span class="token punctuation">)</span><span class="token punctuation">;</span>            l<span class="token operator">=</span>a<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span>sum<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2018年NOIP提高组复赛 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
