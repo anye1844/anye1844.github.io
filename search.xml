@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>语文笔记整理</title>
+      <link href="/2020/05/05/Chinese/"/>
+      <url>/2020/05/05/Chinese/</url>
+      
+        <content type="html"><![CDATA[<h2 id="文学类文章-古诗词表达技巧通用分类表"><a href="#文学类文章-古诗词表达技巧通用分类表" class="headerlink" title="文学类文章  古诗词表达技巧通用分类表"></a>文学类文章  古诗词表达技巧通用分类表</h2><p>$$表达方式\begin{cases}<br>    叙述\begin{cases}<br>      人称：一，二，三\<br>      方式：顺序，倒序，插叙，补叙，平叙\<br>      线索：物线，情线等<br>    \end{cases}\<br>    描写\begin{cases}<br>      人物描写\begin{cases}<br>        正面描写：语言，动作，肖像，心理，细节等\<br>        侧面描写：环境，他人<br>      \end{cases}\<br>      景物描写\begin{cases}<br>        视角变化：远近结合，高低结合\<br>        诸觉结合：视觉，听觉，味觉<br>      \end{cases}\<br>      描写手法：正侧结合，动静结合，明暗结合，白描等<br>    \end{cases}\<br>    抒情：直接抒情：直抒胸臆<br>\end{cases}$$</p><pre class=" language-cpp"><code class="language-cpp">name <span class="token operator">|</span> <span class="token number">111</span> <span class="token operator">|</span> <span class="token number">222</span> <span class="token operator">|</span> <span class="token number">333</span> <span class="token operator">|</span> <span class="token number">444</span><span class="token operator">:</span><span class="token operator">-</span><span class="token operator">:</span> <span class="token operator">|</span> <span class="token operator">:</span><span class="token operator">-</span><span class="token operator">:</span> <span class="token operator">|</span> <span class="token operator">:</span><span class="token operator">-</span><span class="token operator">:</span> <span class="token operator">|</span> <span class="token operator">:</span><span class="token operator">-</span><span class="token operator">:</span> <span class="token operator">|</span> <span class="token operator">:</span><span class="token operator">-</span><span class="token operator">:</span>aaa <span class="token operator">|</span> bbb <span class="token operator">|</span> ccc <span class="token operator">|</span> ddd <span class="token operator">|</span> eee<span class="token operator">|</span> fff <span class="token operator">|</span> ggg<span class="token operator">|</span> hhh <span class="token operator">|</span> iii <span class="token operator">|</span> <span class="token number">000</span><span class="token operator">|</span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chinese </tag>
+            
+            <tag> Study </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/05/04/hello-world/"/>
       <url>/2020/05/04/hello-world/</url>
