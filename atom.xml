@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Anye</title>
+  
+  <subtitle>Anye</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://anye166.gitee.io/"/>
+  <updated>2020-05-06T07:34:04.350Z</updated>
+  <id>https://anye166.gitee.io/</id>
+  
+  <author>
+    <name>Anye</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>语文笔记整理</title>
+    <link href="https://anye166.gitee.io/2020/05/05/Chinese/"/>
+    <id>https://anye166.gitee.io/2020/05/05/Chinese/</id>
+    <published>2020-05-04T16:00:00.000Z</published>
+    <updated>2020-05-06T07:34:04.350Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;文学类文章-古诗词表达技巧通用分类表&quot;&gt;&lt;a href=&quot;#文学类文章-古诗词表达技巧通用分类表&quot; class=&quot;headerlink&quot; title=&quot;文学类文章  古诗词表达技巧通用分类表&quot;&gt;&lt;/a&gt;文学类文章  古诗词表达技巧通用分类表&lt;/h3&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://anye166.gitee.io/categories/Markdown/"/>
+    
+    
+      <category term="Chinese" scheme="https://anye166.gitee.io/tags/Chinese/"/>
+    
+      <category term="Study" scheme="https://anye166.gitee.io/tags/Study/"/>
+    
+      <category term="Markdown" scheme="https://anye166.gitee.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://anye166.gitee.io/2020/05/04/hello-world/"/>
+    <id>https://anye166.gitee.io/2020/05/04/hello-world/</id>
+    <published>2020-05-04T14:25:00.000Z</published>
+    <updated>2020-05-05T01:22:20.299Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://anye166.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Hexo" scheme="https://anye166.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从可正常使用的Linux上挂载其他的Linux的通用方法</title>
+    <link href="https://anye166.gitee.io/2020/04/12/General%20method/"/>
+    <id>https://anye166.gitee.io/2020/04/12/General%20method/</id>
+    <published>2020-04-12T14:25:00.000Z</published>
+    <updated>2020-05-05T00:11:02.635Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;如题，此挂载方法可解决很多不能进系统解决的问题，比如引导失效，显卡驱动问题，安装软件导致不能开机等等&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当然，不仅仅是可以在其他Linux上挂载，当然live CD或者live
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://anye166.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Linux" scheme="https://anye166.gitee.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写在最前</title>
+    <link href="https://anye166.gitee.io/2019/09/03/First/"/>
+    <id>https://anye166.gitee.io/2019/09/03/First/</id>
+    <published>2019-09-03T11:53:36.000Z</published>
+    <updated>2020-05-05T01:21:01.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;如果26个英文字母&quot;&gt;&lt;a href=&quot;#如果26个英文字母&quot; class=&quot;headerlink&quot; title=&quot;如果26个英文字母&quot;&gt;&lt;/a&gt;如果26个英文字母&lt;/h4&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://anye166.gitee.io/categories/Life/"/>
+    
+    
+      <category term="Life" scheme="https://anye166.gitee.io/tags/Life/"/>
+    
+      <category term="C++" scheme="https://anye166.gitee.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A-道路铺设 题解（2018NOIP提高组复赛）</title>
+    <link href="https://anye166.gitee.io/2019/09/03/road/"/>
+    <id>https://anye166.gitee.io/2019/09/03/road/</id>
+    <published>2019-09-03T06:48:59.000Z</published>
+    <updated>2020-05-05T01:58:25.287Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;首先来分析示例数据&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/09/04/nAjFXR.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;这是按照示例数据画出来的示意图，&lt;br&gt;那么填过之后就变成了这样&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://anye166.gitee.io/categories/C/"/>
+    
+    
+      <category term="2018年NOIP提高组复赛" scheme="https://anye166.gitee.io/tags/2018%E5%B9%B4NOIP%E6%8F%90%E9%AB%98%E7%BB%84%E5%A4%8D%E8%B5%9B/"/>
+    
+      <category term="题解" scheme="https://anye166.gitee.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+</feed>
